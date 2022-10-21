@@ -49,7 +49,7 @@ export const Checkout = ({cart, onRemove, shopingCart}) => {
                                 </div>
                             </Fragment>
                         )}
-                </div>wwww
+                </div>
             </div> 
             <div className="total_cnt">
                 <div className="order_cnt">
