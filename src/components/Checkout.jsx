@@ -56,8 +56,7 @@ export const Checkout = ({cart, onRemove, shopingCart}) => {
 
                     <div className="order_summary">
                         <h3>Order Summary</h3>
-                        <div><p>items:</p><p>$ {price.toFixed(2)}</p></div>wwwwwwww
-                        {/* <div><p>shipping:</p><p>$ 6.99</p></div> */}
+                        <div><p>items:</p><p>$ {price.toFixed(2)}</p></div>
                         <div></div>
                         <h4>Order Total: $ {priceTotal.toFixed(2)}</h4>
                         <button onClick={() => toast('product received')}>Place your order</button>
